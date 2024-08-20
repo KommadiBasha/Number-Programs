@@ -1,0 +1,44 @@
+package PrimeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumberO_NByUsingReturnType 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter a number");
+		int num=sc.nextInt();
+		
+		
+		if(isPrimeNumber(num))
+		{
+			System.out.println("prime");
+		}
+		else
+		{
+			System.out.println("not prime");
+		}
+
+	}
+	public static boolean isPrimeNumber(int n)
+	{
+		int i=2;
+		int count=0;
+		while(i<=n)
+		{
+		
+			if(n%i==0)
+			{
+				count++;
+				break;
+			}
+			i++;
+		}
+		
+		
+		return true;
+	}
+
+}

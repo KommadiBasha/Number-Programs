@@ -1,0 +1,24 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class MergeOfTwoArrays {
+
+	public static void main(String[] args) 
+	{
+	Scanner sc= new Scanner(System.in);
+	int size=sc.nextInt();
+	
+	int [] arrayone=new int[size];
+	int [] arraytwo=new int[size];
+	for(int i=0;i<arrayone.length;i++)
+	{
+		arrayone[i]=sc.nextInt();
+	}
+	for(int i=0;i<arraytwo.length;i++)
+	{
+		arraytwo[i]=sc.nextInt();
+	}
+	}
+
+}

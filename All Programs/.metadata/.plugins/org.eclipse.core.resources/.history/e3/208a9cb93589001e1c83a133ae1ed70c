@@ -1,0 +1,30 @@
+package SecondTimeAllPrograms;
+
+import java.util.Scanner;
+
+public class PalindromeNumberorNot {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter a number");
+		int num=sc.nextInt();
+		int temp=num;
+		int last=0;
+		boolean b=false;
+		while(num!=0)
+		{
+			int store=num%10;
+			if(temp==store)
+			{
+				b=true;
+			}
+			num/=10;
+		}
+		if(b==true)
+			System.out.println("palindrome");
+		else
+			System.out.println("not a palindrome");
+	}
+
+}

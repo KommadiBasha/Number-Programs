@@ -1,0 +1,31 @@
+package PrimeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumberOr_Not_F {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter end number");
+		int num=sc.nextInt();
+		boolean b=false;
+		for(int i=2;i<=num;i++)
+		{
+				if(num%i==0)
+				{
+				break;
+				}
+				if(num==i)
+				{
+					System.out.println("prime number...");
+				}
+				else
+				{
+					System.out.println("not a prime number...");
+				}
+		}
+		
+	}
+
+}

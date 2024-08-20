@@ -1,0 +1,33 @@
+package PrimeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumberO_NByUsingReturnType 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		int num=sc.nextInt();
+		
+		isPrimeNumber(num);
+
+	}
+	public static boolean isPrimeNumber(int n)
+	{
+		int i=2;
+		int count;
+		while(i<=n)
+		{
+			count=0;
+			if(n%i==0)
+			{
+				count++;
+			}
+		}
+		
+		
+		return true;
+	}
+
+}

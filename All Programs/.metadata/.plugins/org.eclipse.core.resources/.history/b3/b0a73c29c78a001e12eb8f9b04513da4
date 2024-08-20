@@ -1,0 +1,22 @@
+package PrimeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumberOr_Not_W {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number...");
+		int number =sc.nextInt();
+		boolean b=false;
+		while(number!=0)
+		{
+			if(number%2==1 && number%2==number)
+			{
+				
+			}
+				
+		}
+	}
+}

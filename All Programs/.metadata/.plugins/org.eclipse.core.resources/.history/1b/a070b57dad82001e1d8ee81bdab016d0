@@ -1,0 +1,34 @@
+package NumberPrograms;
+
+import java.util.Collections;
+import java.util.Scanner;
+
+public class Xylem_Phloem {
+
+	public static void main(String[] args) 
+	{
+	 Scanner sc = new Scanner (System.in);
+	 System.out.println("enter number...");
+	 int num=sc.nextInt();
+	 
+	  
+	 int firstandlastSum=0,remainingSum=0;
+	
+	 while (num>0)
+	 {
+		
+		if(firstandlastSum == remainingSum)
+		{
+			System.out.println("Xylem number ...i.e sum is equal..");
+			break;
+		}
+		else
+		{
+			System.out.println("Phloem number...");
+			break;
+		}
+	 }
+	
+	}
+
+}

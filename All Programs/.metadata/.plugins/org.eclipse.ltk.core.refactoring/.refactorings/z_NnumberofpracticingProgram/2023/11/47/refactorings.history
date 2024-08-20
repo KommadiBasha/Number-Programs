@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;SecondTime&apos; to &apos;SecondTimeAllPrograms&apos;&#x0D;&#x0A;- Original project: &apos;z_NnumberofpracticingProgram&apos;&#x0D;&#x0A;- Original element: &apos;z_NnumberofpracticingProgram/src/SecondTime&apos;&#x0D;&#x0A;- Renamed element: &apos;z_NnumberofpracticingProgram/src/SecondTimeAllPrograms&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;SecondTime&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;SecondTime" name="SecondTimeAllPrograms" qualified="false" references="true" stamp="1700656527945" textual="false" version="1.0"/>
+</session>

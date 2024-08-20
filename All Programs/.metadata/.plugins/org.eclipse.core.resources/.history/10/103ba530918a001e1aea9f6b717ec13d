@@ -1,0 +1,31 @@
+package TypeCastingNonPrimtive;
+
+public class BanksMainDriver {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Just Object creation......");
+		
+		SBIBank b= new SBIBank();
+		b.checkBalance();
+		//b.intrest();
+		System.out.println(b.intrest());
+		b.payMoney();
+		System.out.println();
+		System.out.println("Parent refference and chilld object PaytmClass... ");
+		AllBanks allpaytm;
+		allpaytm=new Paytm();
+		allpaytm.checkBalance();
+		allpaytm.intrest();
+		allpaytm.payMoney();
+		
+		System.out.println("Parent refference and chilld object PaytmClass... ");
+		AllBanks all;
+		all=new Paytm();
+		all.checkBalance();
+		all.intrest();
+		all.payMoney();
+
+	}
+
+}

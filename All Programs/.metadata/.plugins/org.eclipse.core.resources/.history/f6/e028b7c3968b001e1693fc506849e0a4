@@ -1,0 +1,28 @@
+package PalindromeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PalindromeO_N_F {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter a number...");
+		int number=sc.nextInt();
+		 
+		int temp=number;
+		int sum=0;
+		//works from 303
+		System.out.println(temp+"temp");
+		for(int i=0;i>0; number/=10)
+		{
+			int last=number%10;
+			sum=(sum*10)+last;
+			System.out.print( "last "+sum+" ");
+			
+		}
+		
+	System.out.print(sum+" ");
+	}
+
+}

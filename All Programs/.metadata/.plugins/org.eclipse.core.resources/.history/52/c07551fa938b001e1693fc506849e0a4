@@ -1,0 +1,26 @@
+package PalindromeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PalindromeO_N_F {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter a number...");
+		int number=sc.nextInt();
+		int temp=number;
+		int rev=0;
+		//works from 303
+		for(int i=0;i<=number;i++)
+		{
+			int last=number%100;
+			//rev=(rev*10)+last;
+			System.out.print(last+" ");
+			number/=10;
+		}
+		
+		
+	}
+
+}

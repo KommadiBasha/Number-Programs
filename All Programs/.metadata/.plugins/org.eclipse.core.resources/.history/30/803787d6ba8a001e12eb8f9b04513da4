@@ -1,0 +1,10 @@
+package NumberPrograms;
+
+public class PrimeNumberOr_Not {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

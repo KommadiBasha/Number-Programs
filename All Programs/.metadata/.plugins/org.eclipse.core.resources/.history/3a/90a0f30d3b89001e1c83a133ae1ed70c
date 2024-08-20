@@ -1,0 +1,24 @@
+package SecondTimeAllPrograms;
+
+import java.util.Scanner;
+
+public class Palindromeee {
+
+	public static void main(String[] args)
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter the start number...");
+		int m=sc.nextInt();
+		
+		int orignal=m;
+		int extra=0;
+		while(m>=0)
+		{
+			extra=m%10;
+			m/=10;
+			
+		}
+		System.out.println(extra);
+	}
+
+}

@@ -1,0 +1,28 @@
+package NumberPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumberOr_Not {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int number =sc.nextInt();
+		
+		while(number!=0)
+		{
+			if(number%2==1)
+			{
+				System.out.println("prime number...");
+				break;
+			}
+			else
+			{
+				System.out.println("not prime number...");
+			}
+		}
+		
+
+	}
+
+}

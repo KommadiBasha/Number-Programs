@@ -1,0 +1,14 @@
+package TypeCastingNonPrimtive;
+
+public class BanksMainDriver {
+
+	public static void main(String[] args) 
+	{
+		SBIBank b= new SBIBank();
+		b.checkBalance();
+		b.intrest();
+		b.payMoney();
+
+	}
+
+}

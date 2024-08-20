@@ -1,0 +1,9 @@
+package TypeCastingNonPrimtive;
+
+public class AllBanks 
+{
+	public int interst()
+	{
+		return 2 ;
+	}
+}

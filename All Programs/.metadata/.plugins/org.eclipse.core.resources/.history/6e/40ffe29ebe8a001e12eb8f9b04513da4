@@ -1,0 +1,27 @@
+package PrimeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumbersMtoN_F {
+
+	public static void main(String[] args) 
+	{
+
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter m value");
+		int m=sc.nextInt();
+		System.out.println("Enter n value");
+		int n=sc.nextInt();
+		for(int i=m;n<=n;i++)
+		{
+			for(int j=2;j<=n;j++)
+			{
+				if(j%2==1)
+				{
+					System.out.println(j);
+				}
+			}
+		}
+	}
+
+}

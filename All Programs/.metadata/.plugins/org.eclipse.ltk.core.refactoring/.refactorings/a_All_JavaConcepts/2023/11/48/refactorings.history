@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;PalindromeNumberPrograms.PalindromeNumberMtoN_W&apos; to &apos;PalindromeNumberMtoN_F&apos;&#x0D;&#x0A;- Original project: &apos;a_All_JavaConcepts&apos;&#x0D;&#x0A;- Original element: &apos;PalindromeNumberPrograms.PalindromeNumberMtoN_W&apos;&#x0D;&#x0A;- Renamed element: &apos;PalindromeNumberPrograms.PalindromeNumberMtoN_F&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PalindromeNumberMtoN_W&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;PalindromeNumberPrograms{PalindromeNumberMtoN_W.java[PalindromeNumberMtoN_W" matchStrategy="1" name="PalindromeNumberMtoN_F" qualified="false" references="true" similarDeclarations="false" stamp="1700978292061" textual="false" version="1.0"/>
+</session>

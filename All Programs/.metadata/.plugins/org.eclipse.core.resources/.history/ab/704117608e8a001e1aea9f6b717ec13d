@@ -1,0 +1,17 @@
+package TypeCastingNonPrimtive;
+
+public class SBIBank 
+{
+	public String intrest()
+	{
+		return 3+" %Paytm class" ;
+	}
+	public  void payMoney()
+	{
+		System.out.println("paymoneyMethod SBIBank  class");
+	}
+	public void checkBalance()
+	{
+		System.out.println("check balance method SBIBank  class");
+	}
+}

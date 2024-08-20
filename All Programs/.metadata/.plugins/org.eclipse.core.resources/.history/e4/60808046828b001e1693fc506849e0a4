@@ -1,0 +1,36 @@
+package PrimeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PrimeNumbersMtoN_W {
+
+	public static void main(String[] args) 
+	{
+
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter m value");
+		int m=sc.nextInt();
+		System.out.println("Enter n value");
+		int n=sc.nextInt();
+		int count=0;
+		boolean b=false;
+		int temp=m;
+		while(temp<=n)
+		{
+			int extract=m%2;
+			
+			if(extract%2==0)
+			{
+				b=true;
+			}
+			m/=10;
+			
+		}
+		while(b==true)
+		{
+			System.out.print(temp+" ");
+			temp++;
+		}
+	}
+
+}

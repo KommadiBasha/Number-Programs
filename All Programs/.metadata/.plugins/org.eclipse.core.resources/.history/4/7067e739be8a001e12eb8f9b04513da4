@@ -1,0 +1,10 @@
+package PrimeNumberPrograms;
+
+public class PrimeNumbersMtoN_F {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;NumberPrograms.UniqueNumber&apos; to &apos;JustUniqueNumberorNot&apos;&#x0D;&#x0A;- Original project: &apos;z_AllSetPracticePrograms&apos;&#x0D;&#x0A;- Original element: &apos;NumberPrograms.UniqueNumber&apos;&#x0D;&#x0A;- Renamed element: &apos;NumberPrograms.JustUniqueNumberorNot&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;UniqueNumber&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;NumberPrograms{UniqueNumber.java[UniqueNumber" matchStrategy="1" name="JustUniqueNumberorNot" qualified="false" references="true" similarDeclarations="false" stamp="1700135332211" textual="false" version="1.0"/>
+</session>

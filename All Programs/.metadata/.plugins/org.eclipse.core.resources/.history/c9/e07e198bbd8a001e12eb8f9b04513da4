@@ -1,0 +1,11 @@
+package PrimeNumberPrograms;
+
+public class PrimeNumberOrNot_F {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

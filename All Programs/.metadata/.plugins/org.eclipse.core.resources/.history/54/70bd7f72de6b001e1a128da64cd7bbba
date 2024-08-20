@@ -1,0 +1,27 @@
+package MtoNPrintProgams;
+
+import java.util.Scanner;
+
+public class PerfectNumberMtoN {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("You are printing whole numbers ok...");
+		System.out.println("enter the start number...");
+		int m=sc.nextInt();
+		System.out.println("Enter end Number...");
+		int n=sc.nextInt();
+		
+		for(int i=m;i<=n;i++)
+		{
+			int num=2;
+			if(n%num==0)
+			{
+				System.out.println(i);
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package NumberPrograms;
+
+import java.util.Collections;
+import java.util.Scanner;
+
+public class Xylem_Phloem {
+
+	public static void main(String[] args) 
+	{
+	 Scanner sc = new Scanner (System.in);
+	 System.out.println("enter number...");
+	 int num=sc.nextInt();
+	 
+	  
+	 int firstandlastSum=0 ,rev, remainingSum=0;
+	
+	 while (num>0)
+	 {
+		rev=num%10;
+		
+	 }
+	System.out.print("last num "+rev);
+	}
+
+}

@@ -1,0 +1,27 @@
+package PalindromeNumberPrograms;
+
+import java.util.Scanner;
+
+public class PalindromeNumbersMtoN_W {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter start number...");
+		int star=sc.nextInt();
+		System.out.println("Enter end number ");
+		int end=sc.nextInt();
+		
+		int sum=0;
+		while(star<=end)
+		{
+			int last=star%10;
+			sum=(sum*10)+last;
+			star/=10;
+			star++;
+			
+		}
+		System.out.print(sum+" ");
+	}
+
+}

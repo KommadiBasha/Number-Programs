@@ -1,0 +1,18 @@
+package ReturnTypebased;
+
+public class PassingSomethingReturningNothing {
+
+	
+	public static void method(int i,String s)
+	{
+		System.out.println("method");
+		
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main");
+		//System.out.print(method(9,"name"));
+		method(9,"Name");
+	}
+
+}
