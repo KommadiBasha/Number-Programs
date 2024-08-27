@@ -38,20 +38,20 @@ public class NegativePositive {
 	   }
 	    public static void negValue(int count1, int negCount1)
 	    {
-	    	int storeNeg=0;
-	    	if(count1!=0)
-	    	{
-	    		storeNeg=negCount1/count1;
-	    	}
+	    	double storeNeg=(double)negCount1/count1;
+	    	
+	    	
 	    	System.out.println(storeNeg);
 	    }
 	    public static void posValue(int count1, int posCount1)
 	    {
-	    	int storePos=0;
+	    	double storePos=(double)posCount1/count1;
+	    	System.out.println(storePos);
 	    }
 	    public static void zeroValue(int count1, int zeroCount)
 	    {
-	    	int storeZero=0;
+	    	double storeZero=(double)zeroCount/count1;
+	    	System.out.println(storeZero);
 	    }
 	}
 
